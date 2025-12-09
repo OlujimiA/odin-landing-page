@@ -59,7 +59,7 @@ header nav a, .hero-text p {
     gap: 5px;
 }
 
-.hero-text button {
+.hero-text button, .cta button {
     width: 120px;
     font-size: 18px;
     margin-top: 10px;
@@ -84,9 +84,15 @@ header nav a, .hero-text p {
     display: flex;
     flex-direction: column;
     gap: 36px;
-    padding: 30px;
+    padding: 40px;
     justify-content: center;
     align-items: center;
+}
+
+.second h1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 .card-container {
@@ -109,4 +115,71 @@ header nav a, .hero-text p {
     border-radius: 10px;
     height: 145px;
     width: 145px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.message {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author {
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: 900;
+    align-self: flex-end;
+}
+
+.sign-up {
+    padding: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    border-radius: 10px;
+    width: 1000px;
+}
+
+.cta button {
+    border: 1px solid white;
+    flex-grow: 0;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.cta-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+footer{
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
